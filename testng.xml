@@ -3,7 +3,7 @@
 <suite name="Automation Practice Demo">
 
 <listeners>
-		<listener class-name="com.automation.practice.util.ExtentReporterNG" />
+<listener class-name="com.automation.practice.util.ExtentReporterNG" />
 </listeners>
 
 

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Automation Practice Demo">
+
+<listeners>
+		<listener class-name="com.automation.practice.util.ExtentReporterNG" />
+</listeners>
+
+
+<test name = "validate Title of the Page">
+<classes>
+<class name = "com.automation.practice.Testpages.IndexTest">
+<methods>
+<include name = "validateTitle"></include>
+</methods>
+</class>
+</classes>
+</test>
+<test name = "validate title of Authentication Page">
+<classes>
+<class name = "com.automation.practice.Testpages.Authentication_LoginTest">
+<methods>
+<include name = "validateTitle"></include>
+</methods>
+</class>
+</classes>
+</test>
+
+</suite>
+

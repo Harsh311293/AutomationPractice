@@ -4,6 +4,7 @@
 <listeners>
 <listener class-name="com.automation.practice.util.ExtentReporterNG" />
 </listeners>
+  
 <test name = "validate Title of the Page">
 <classes>
 <class name = "com.automation.practice.Testpages.IndexTest">

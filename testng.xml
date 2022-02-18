@@ -14,6 +14,7 @@
 </class>
 </classes>
 </test>
+  
 <test name = "validate title of Authentication Page">
 <classes>
 <class name = "com.automation.practice.Testpages.Authentication_LoginTest">
